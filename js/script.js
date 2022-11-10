@@ -40,11 +40,11 @@ themeToggler.onclick = () => {
     document.body.classList.remove("active");
   }
 };
-const resume = "./Hind-Mahmoud-Resume.pdf";
-const blob = new Blob([resume], { type: "application/pdf" });
-const link = URL.createObjectURL(blob);
-document.querySelector(".download").href = link;
-document.querySelector(".download").download = "Hind-Mahmoud-Resume.pdf";
-document.querySelector(".download").addEventListener("click", () => {
-  click();
-});
+// const resume = "./Hind-Mahmoud-Resume.pdf";
+// const blob = new Blob([resume], { type: "application/pdf" });
+// const link = URL.createObjectURL(blob);
+// document.querySelector(".download").href = link;
+// document.querySelector(".download").download = "Hind-Mahmoud-Resume.pdf";
+// document.querySelector(".download").addEventListener("click", () => {
+//   click();
+// });
