@@ -1,9 +1,9 @@
 // Autotyping Effect
 var AutoTyping = new Typed(".Hind", {
-  strings: ["Hind Mahmoud", "i am a front-end developer"],
+  strings: ["Hind Mahmoud"],
   typeSpeed: 150,
   backSpeed: 150,
-  loop: true,
+  loop: false,
 });
 // var AutoTyping = new Typed(".Developer", {
 //   strings: ["i am a front-end developer"],
